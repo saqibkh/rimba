@@ -5,6 +5,8 @@ name: gpu-sim
 # (https://github.com/pantheongpu/pantheonsim). A simulator cannot reproduce
 # hardware-specific behavior or timing, so it complements runs on real GPUs.
 on:
+  push:
+    branches: [verify-gpu-sim]
   workflow_dispatch:
   pull_request:
     paths:

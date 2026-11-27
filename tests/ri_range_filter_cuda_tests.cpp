@@ -93,7 +93,7 @@ int main()
     expect_removed(50, 10);
     expect_removed(50, 11);
     expect_removed(51, 10);
-    expect_kept(55, 20);
+    expect_removed(55, 20);
     expect_kept(55, 21);
     expect_kept(55, 22);
     expect_kept(55, 23);
